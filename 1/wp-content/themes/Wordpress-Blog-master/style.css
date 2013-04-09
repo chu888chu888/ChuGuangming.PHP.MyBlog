@@ -1,0 +1,225 @@
+/* 
+ * Theme Name: dangrossman.info 2012
+ */
+
+#left {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 250px;
+	border-right: 1px dotted #ccc;
+	padding: 40px 0 0 0;
+	background: url(/wp-content/themes/2012/grid.png);	
+}
+
+#left h1 {
+	margin: 0 0 30px 30px;
+	font-size: 24px;
+	width: 169px;
+	height: 21px;
+	text-indent: -9999px;
+	background: url(/wp-content/themes/2012/dangrossman.png) no-repeat	;
+}
+
+#left ul.nav-pills li a:link, #left ul.nav-pills li a:visited {
+	padding: 20px 30px;
+	border-radius: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#left ul.nav-list li.nav-header {
+	padding: 5px 30px;
+}
+
+#left ul.nav-list li a:link, #left ul.nav-list li a:visited {
+	padding: 5px 30px;
+}
+
+#left ul.nav-list li img {
+	position: relative;
+	top: -2px;
+	margin-right: 1px;
+}
+
+#right {
+	margin-left: 251px;
+	padding: 20px 0 0 0;
+}
+
+#right a:link, #right a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+.separator {
+	width: 709px; 
+	border-top: 1px dotted #ccc; 
+	margin: 20px 0;
+}
+
+.post p a, .post h2 a, #topbox a {
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+}
+
+.post a.post-title:link, .post a.post-title:visited {
+    border: none;
+}
+
+#right a:hover {
+    color: #08c;
+}
+
+.post p a {
+    font-weight: bold;
+}
+
+.post blockquote {
+    border-left: 5px solid #08c;
+}
+
+#topbox {
+	margin: 0 20px 20px 20px;
+	padding: 20px;
+	background: #efefef;
+	color: #000;
+	width: 629px;
+	border-radius: 5px;
+}
+
+#topbox img {
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+#topbox p {
+	font-size: 11pt;
+	line-height: 1.5em;
+	margin: 0;
+}
+
+.postdate {
+	border-top: 1px dotted #ccc;
+}
+
+.postdate h1 {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 3px 20px;
+	float: left;
+	margin: 20px 0 0 20px;
+	background: #efefef;
+	color: #000;
+	border-radius: 5px;
+}
+
+.pager {
+	clear: left;
+	margin: 0 20px;
+	width: 669px;
+}
+
+.post {
+	clear: left;
+	padding: 10px 20px 20px 20px;
+	width: 669px;
+}
+
+.post h2 {
+	margin-bottom: 10px;
+}
+
+.post p, .post li, .post label {
+	font-size: 15px;
+	line-height: 1.5em;
+}
+
+.post p {
+	margin: 0px 0px 1.5em 0px;
+}
+
+.portfolio {
+	clear: left;
+	margin: 20px;
+	width: 669px;
+	height: 240px;
+	background-position: -20px -10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	position: relative;	
+}
+
+.portfolio h2 {
+	position: absolute;
+	left: 435px;
+	top: 15px;
+	color: #fff;
+	font-size: 15px;
+}
+
+.portfolio a.btn {
+	position: absolute;
+	left: 435px;
+	bottom: 20px;
+}
+
+.portfolio ul {
+	position: absolute;
+	left: 435px;
+	top: 55px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.portfolio ul li {
+	float: left;
+	margin: 0 2px 12px 0;
+}
+
+.portfolio li span  {
+	display: inline;
+	margin: 0 7px 0 0;
+	padding: 5px 0 7px 20px;
+	font-weight: bold;
+	font-size: 11px;
+	background: url(tagleftdark.png) no-repeat left top;
+	overflow: hidden;
+}
+
+#right .portfolio li span a:link, #right .portfolio li span a:visited  {
+	margin: 0 -3px 0 0;
+	padding: 5px 9px 7px 0;
+	color: #fff;
+	text-decoration: none;
+	background: url(tagrightdark.png) no-repeat right top;
+	white-space: nowrap;
+}
+
+.contactform label {
+    display: block;
+    font-weight: bold;
+    width: 200px;
+    float: left;
+}
+
+#reportrange {
+  background: #ffffff;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+  color: #333333;
+  padding: 8px;
+  line-height: 18px;
+  cursor: pointer;
+}
+#reportrange .caret {
+  margin-top: 8px;
+  margin-left: 2px;
+}
+#reportrange span {
+  padding-left: 3px;
+}
